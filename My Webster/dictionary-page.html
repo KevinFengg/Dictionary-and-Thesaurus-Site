@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <script src="/js/DictionaryAPI.js"></script>
+  <link rel="stylesheet" href="/css/dictionary-page.css" />
+  <head>
+    <title>My Dictionary</title>
+  </head>
+  <body>
+    <h1 id="title">Dictionary</h1>
+    <input
+      type="search"
+      id="dict-input-box"
+      placeholder="Enter a word..."
+      onkeydown="enter(this)"
+    />
+    <div id="rectangle-separator"></div>
+    <main>
+      <div class="side-tabs col">
+        <form action="index.html">
+          <button id="front-page-side-button">Front Page</button>
+        </form>
+        <form action="thesaurus-page.html">
+          <button id="thes-side-button">Thesaurus</button>
+        </form>
+        <form action="help-page.html">
+          <button id="help-side-button">Help</button>
+        </form>
+      </div>
+      <div id="border"></div>
+      <div id="dict-output">
+        Enter a word to view its definitions...
+      </div>
+      <a href="#" id="back-to-top">Back to top</a>
+    </main>
+  </body>
+</html>

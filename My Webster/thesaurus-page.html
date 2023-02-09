@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <script src="/js/ThesaurusAPI.js"></script>
+  <link rel="stylesheet" href="/css/thesaurus-page.css" />
+  <head>
+    <title>My Thesaurus</title>
+  </head>
+  <body>
+    <h1 id="title">Thesaurus</h1>
+    <input
+      type="text"
+      id="thes-input-box"
+      placeholder="Enter a word..."
+      onkeydown="enter(this)"
+    />
+    <div id="rectangle-separator"></div>
+    <main>
+      <div class="side-tabs col">
+        <form action="index.html">
+          <button id="front-page-side-button">Front Page</button>
+        </form>
+        <form action="dictionary-page.html">
+          <button id="dict-side-button">Dictionary</button>
+        </form>
+        <form action="help-page.html">
+          <button id="help-side-button">Help</button>
+        </form>
+      </div>
+      <div id="border"></div>
+      <div id="thes-output">
+        Enter a word to view its synonyms and antonyms...
+      </div>
+      <a href="#" id="back-to-top">Back to top</a>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+* {
+  background-color: #fff591;
+  font-family: Arial Rounded MT Bold, Arial, sans-serif;
+  margin-left: 0px;
+  color: #222433;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+#title {
+  color: inherit;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 600%;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: 1px 4px 9px rgba(0, 0, 0, 0.5);
+}
+
+.side-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+#front-page-side-button,
+#dict-side-button,
+#thes-side-button {
+  color: inerit;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 1vw;
+  margin-bottom: 2.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+  height: 6vw;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: none;
+  outline: solid;
+  outline-color: #3b4062;
+  outline-width: 2px;
+  outline-offset: -2px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+#front-page-side-button {
+  background-color: #6b99ff;
+}
+
+#dict-side-button {
+  background-color: #e35a5a;
+}
+
+#thes-side-button {
+  background-color: #f79d40;
+}
+
+#front-page-side-button:hover,
+#dict-side-button:hover,
+#thes-side-button:hover {
+  color: #fff;
+  background-color: #3b4062;
+}
+
+#border {
+  width: 2px;
+}
+
+#help {
+  color: inherit;
+  font-family: inherit;
+  font-size: 130%;
+  width: 50%;
+  margin: 20px;
+}

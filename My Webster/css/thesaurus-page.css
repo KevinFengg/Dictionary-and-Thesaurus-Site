@@ -1,0 +1,142 @@
+* {
+  background-color: #f4b36f;
+  font-family: Arial Rounded MT Bold, Arial, sans-serif;
+  margin-left: 0px;
+  color: #222433;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+#title {
+  color: inherit;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 600%;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: 1px 4px 9px rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+#thes-input-box {
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  outline-style: solid;
+  outline-width: 1.5px;
+  outline-color: #3b4062;
+  color: inherit;
+  background-color: #c8c8c8;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 300px;
+  height: 25px;
+  position: relative;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+#rectangle-separator {
+  background-color: #222433;
+  height: 2px;
+  width: 420px;
+  position: relative;
+  left: 50%;
+  top: 34%;
+  transform: translateX(-50%);
+  margin-bottom: 4px;
+}
+
+.side-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+#front-page-side-button,
+#dict-side-button,
+#help-side-button {
+  color: inerit;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 1vw;
+  margin-bottom: 2.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+  height: 6vw;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: none;
+  outline: solid;
+  outline-color: #3b4062;
+  outline-width: 2px;
+  outline-offset: -2px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+#front-page-side-button {
+  background-color: #6b99ff;
+}
+
+#dict-side-button {
+  background-color: #e35a5a;
+}
+
+#help-side-button {
+  background-color: #ecdb39;
+}
+
+#front-page-side-button:hover,
+#dict-side-button:hover,
+#help-side-button:hover {
+  color: #fff;
+  background-color: #3b4062;
+}
+
+#border {
+  width: 2px;
+}
+
+#thes-output {
+  color: inherit;
+  font-family: inherit;
+  font-size: 130%;
+  width: 50%;
+  margin: 20px;
+}
+
+#back-to-top {
+  position: sticky;
+  place-self: end;
+  bottom: 4vh;
+  margin-top: 65vh;
+
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+
+  background-color: #3b4062;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 12px;
+  align-items: center;
+  box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.25s ease;
+}
+
+#back-to-top:hover {
+  color: #fff;
+  background-color: #373737;
+  outline: solid;
+  outline-offset: -1px;
+  outline-color: #3b4062;
+  outline-width: 1.5px;
+}
+
